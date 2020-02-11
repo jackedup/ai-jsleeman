@@ -23,6 +23,8 @@ class Stats:
                 self._draws += 1
 
     def summarize(self):
-        print("goat wins: " + str(self._goatWins) + " tiger wins: " + str(self._tigerWins) + " draws: " + str(self._draws))
+        print("goat wins: " + str(self._goatWins) + " tiger wins: " + str(self._tigerWins) \
+            + " draws: " + str(self._draws))
+    
 
         

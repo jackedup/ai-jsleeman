@@ -7,6 +7,6 @@ from stats import Stats
 
 matchup = Matchup()
 # matchup.tigerAgent = HungryTigerAgent(matchup.game)
-stats = Stats(matchup, 1000)
+stats = Stats(matchup, 10000)
 stats.playAll()
 stats.summarize()
